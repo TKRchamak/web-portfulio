@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+header div{
+    float: left;
+    overflow: hidden;
+    width: 40%;
+    margin: 5%;
+}
+header div img{
+    width: 100%;
+    height: auto;
+}
+.high-lighter{
+    color: orange;
+}
+
