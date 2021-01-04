@@ -23,11 +23,69 @@ header div img{
    border: 1px solid none;
    border-radius: 3%; 
    padding: 5px 20px;
-   background-image: linear-gradient(90deg, #d8c974, orange);
+   background-image: linear-gradient(90deg, #FB6657,#FFB825);
    color: wheat;
    font-size: 18px;
 }
 .high-lighter{
     color: orange;
 }
+.section{
+    height: 500px;
+}
 
+
+.second-area{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    overflow: hidden;
+}
+
+.second-area div img{
+    width: 100%;
+    height: auto;
+}
+
+.second-area div{
+    width: 40%;
+    float: left;
+    overflow: hidden;
+    margin: 3%;
+    padding: 2%;
+}
+
+
+.thired-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    overflow: hidden;
+    padding-bottom: 100px;
+}
+
+.half-width{
+    float: left;
+    overflow: hidden;
+    width: 40%;
+    padding: 1%;
+    margin-left: 6%; 
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 2%;
+}
+
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(#FB6657,#FFB825);
+    border-image-slice: 1;
+}
+
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+footer p{
+    text-align: center;;
+}
